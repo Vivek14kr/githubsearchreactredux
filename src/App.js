@@ -1,13 +1,14 @@
 import logo from './logo.svg';
 import './App.css';
-import { Todos } from './components/Todos';
+
+import { Routing } from './Routes/Routing';
 
 function App() {
  
     return (
     <div className="App">
      
-     <Todos/>
+     <Routing/>
     </div>
   );
 }
